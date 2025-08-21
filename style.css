@@ -1,0 +1,18 @@
+html, body { height: 100%; }
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #0e0f12;
+}
+canvas { display: block; }
+
+.cube-label {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 4px 8px;
+  /* background: rgba(0, 0, 0, 0.45); */
+  /* border-radius: 8px; */
+  /* white-space: nowrap; */
+  user-select: none;   /* 選択禁止にしておくと操作しやすい */
+}
